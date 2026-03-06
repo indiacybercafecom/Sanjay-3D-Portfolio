@@ -42,19 +42,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Aadhar Services",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "PAN Card Assistance",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Government Forms",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Digital Documentation",
     icon: creator,
   },
 ];
@@ -116,55 +116,55 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Founder",
+    company_name: "India Cyber Cafe",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "2020 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Helping citizens complete Aadhar registration and verification processes.",
+      "Assisting with PAN card applications and documentation.",
+      "Guiding people through online government forms and applications.",
+      "Providing digital documentation and verification services to underserved communities.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Digital Services Manager",
+    company_name: "India Cyber Cafe",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "2021 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Streamlining government service access for citizens across multiple districts.",
+      "Managing digital documentation processes and verification systems.",
+      "Training staff on latest digital government services and platforms.",
+      "Ensuring quality support and timely completion of all citizen requests.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Customer Relations Specialist",
+    company_name: "India Cyber Cafe",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "2020 - 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Building trust and long-term relationships with customers.",
+      "Resolving issues related to digital service applications.",
+      "Providing guidance on government forms and documentation.",
+      "Maintaining high customer satisfaction through dedicated support.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Founder & Community Leader",
+    company_name: "India Cyber Cafe",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "2020 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Building a community-focused digital service platform.",
+      "Expanding access to government services in underserved areas.",
+      "Continuously improving service quality and customer experience.",
+      "Empowering citizens through better access to digital India services.",
     ],
   },
 ];
@@ -172,46 +172,46 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "India Cyber Cafe helped me complete my Aadhar registration smoothly. Sanjay and his team were very professional and patient. Highly recommended!",
+    name: "Priya Sharma",
+    designation: "Teacher",
+    company: "Delhi",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "I was confused about PAN card application, but the team at India Cyber Cafe guided me through every step. Excellent service!",
+    name: "Rajesh Kumar",
+    designation: "Businessman",
+    company: "Mumbai",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "Getting help with government forms was so easy thanks to India Cyber Cafe. They saved me so much time and stress!",
+    name: "Anjali Singh",
+    designation: "Student",
+    company: "Bangalore",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Aadhar Services",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "India Cyber Cafe provides complete assistance with Aadhar registration, verification, and updates. We help citizens navigate the entire process smoothly and securely with expert guidance.",
     tags: [
       {
-        name: "react",
+        name: "aadhar",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "government",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "verification",
         color: "pink-text-gradient",
       },
     ],
@@ -219,20 +219,20 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "PAN Card Assistance",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "India Cyber Cafe assists individuals and businesses with PAN card applications, corrections, and related documentation. Our team ensures quick and hassle-free processing.",
     tags: [
       {
-        name: "react",
+        name: "pancard",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "income",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "taxation",
         color: "pink-text-gradient",
       },
     ],
@@ -240,20 +240,20 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Online Government Forms",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "From pension applications to license renewals, India Cyber Cafe helps citizens complete all types of government forms with accuracy and ease. Expert support at every step.",
     tags: [
       {
-        name: "nextjs",
+        name: "forms",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "government",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "applications",
         color: "pink-text-gradient",
       },
     ],
