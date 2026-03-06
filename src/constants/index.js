@@ -1,32 +1,28 @@
 import {
-  logo,
+  mobile,
   backend,
   creator,
-  mobile,
   web,
-  github,
-  menu,
-  close,
-  css,
-  docker,
-  figma,
-  git,
-  html,
   javascript,
-  mongodb,
-  nodejs,
+  typescript,
+  html,
+  css,
   reactjs,
   redux,
   tailwind,
-  typescript,
-  threejs,
+  nodejs,
+  mongodb,
+  git,
+  figma,
+  docker,
   meta,
-  shopify,
   starbucks,
   tesla,
+  shopify,
   carrent,
   jobit,
   tripguide,
+  threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -120,19 +116,6 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Founder",
-    company_name: "India Cyber Cafe",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - Present",
-    points: [
-      "Founded India Cyber Cafe to help people access digital services and online government applications.",
-      "Providing essential digital infrastructure to the local community.",
-      "Assisting users with complex online application processes for government schemes.",
-      "Managing day-to-day operations and technical support for cyber cafe clients.",
-    ],
-  },
-  {
     title: "React.js Developer",
     company_name: "Starbucks",
     icon: starbucks,
@@ -189,7 +172,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Sanjay proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -197,7 +180,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Sanjay does.",
+      "I've never met a web developer who truly cares about their clients' success like Rick does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -205,7 +188,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Sanjay optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",

@@ -1,37 +1,34 @@
-// SVG Placeholders
-const logo = "https://raw.githubusercontent.com/adrianhajdin/project_3D_developer_portfolio/main/src/assets/logo.svg";
-const github = "https://raw.githubusercontent.com/adrianhajdin/project_3D_developer_portfolio/main/src/assets/github.png";
-const menu = "https://raw.githubusercontent.com/adrianhajdin/project_3D_developer_portfolio/main/src/assets/menu.svg";
-const close = "https://raw.githubusercontent.com/adrianhajdin/project_3D_developer_portfolio/main/src/assets/close.svg";
+import logo from "./logo.svg";
+import backend from "./backend.png";
+import creator from "./creator.png";
+import mobile from "./mobile.png";
+import web from "./web.png";
+import github from "./github.png";
+import menu from "./menu.svg";
+import close from "./close.svg";
 
-// PNG Placeholders (using Picsum for now, or raw github if they work)
-const backend = "https://raw.githubusercontent.com/adrianhajdin/project_3D_developer_portfolio/main/src/assets/backend.png";
-const creator = "https://raw.githubusercontent.com/adrianhajdin/project_3D_developer_portfolio/main/src/assets/creator.png";
-const mobile = "https://raw.githubusercontent.com/adrianhajdin/project_3D_developer_portfolio/main/src/assets/mobile.png";
-const web = "https://raw.githubusercontent.com/adrianhajdin/project_3D_developer_portfolio/main/src/assets/web.png";
+import css from "./tech/css.png";
+import docker from "./tech/docker.png";
+import figma from "./tech/figma.png";
+import git from "./tech/git.png";
+import html from "./tech/html.png";
+import javascript from "./tech/javascript.png";
+import mongodb from "./tech/mongodb.png";
+import nodejs from "./tech/nodejs.png";
+import reactjs from "./tech/reactjs.png";
+import redux from "./tech/redux.png";
+import tailwind from "./tech/tailwind.png";
+import typescript from "./tech/typescript.png";
+import threejs from "./tech/threejs.svg";
 
-const css = "https://raw.githubusercontent.com/adrianhajdin/project_3D_developer_portfolio/main/src/assets/tech/css.png";
-const docker = "https://raw.githubusercontent.com/adrianhajdin/project_3D_developer_portfolio/main/src/assets/tech/docker.png";
-const figma = "https://raw.githubusercontent.com/adrianhajdin/project_3D_developer_portfolio/main/src/assets/tech/figma.png";
-const git = "https://raw.githubusercontent.com/adrianhajdin/project_3D_developer_portfolio/main/src/assets/tech/git.png";
-const html = "https://raw.githubusercontent.com/adrianhajdin/project_3D_developer_portfolio/main/src/assets/tech/html.png";
-const javascript = "https://raw.githubusercontent.com/adrianhajdin/project_3D_developer_portfolio/main/src/assets/tech/javascript.png";
-const mongodb = "https://raw.githubusercontent.com/adrianhajdin/project_3D_developer_portfolio/main/src/assets/tech/mongodb.png";
-const nodejs = "https://raw.githubusercontent.com/adrianhajdin/project_3D_developer_portfolio/main/src/assets/tech/nodejs.png";
-const reactjs = "https://raw.githubusercontent.com/adrianhajdin/project_3D_developer_portfolio/main/src/assets/tech/reactjs.png";
-const redux = "https://raw.githubusercontent.com/adrianhajdin/project_3D_developer_portfolio/main/src/assets/tech/redux.png";
-const tailwind = "https://raw.githubusercontent.com/adrianhajdin/project_3D_developer_portfolio/main/src/assets/tech/tailwind.png";
-const typescript = "https://raw.githubusercontent.com/adrianhajdin/project_3D_developer_portfolio/main/src/assets/tech/typescript.png";
-const threejs = "https://raw.githubusercontent.com/adrianhajdin/project_3D_developer_portfolio/main/src/assets/tech/threejs.svg";
+import meta from "./company/meta.png";
+import shopify from "./company/shopify.png";
+import starbucks from "./company/starbucks.png";
+import tesla from "./company/tesla.png";
 
-const meta = "https://raw.githubusercontent.com/adrianhajdin/project_3D_developer_portfolio/main/src/assets/company/meta.png";
-const shopify = "https://raw.githubusercontent.com/adrianhajdin/project_3D_developer_portfolio/main/src/assets/company/shopify.png";
-const starbucks = "https://raw.githubusercontent.com/adrianhajdin/project_3D_developer_portfolio/main/src/assets/company/starbucks.png";
-const tesla = "https://raw.githubusercontent.com/adrianhajdin/project_3D_developer_portfolio/main/src/assets/company/tesla.png";
-
-const carrent = "https://raw.githubusercontent.com/adrianhajdin/project_3D_developer_portfolio/main/src/assets/carrent.png";
-const jobit = "https://raw.githubusercontent.com/adrianhajdin/project_3D_developer_portfolio/main/src/assets/jobit.png";
-const tripguide = "https://raw.githubusercontent.com/adrianhajdin/project_3D_developer_portfolio/main/src/assets/tripguide.png";
+import carrent from "./carrent.png";
+import jobit from "./jobit.png";
+import tripguide from "./tripguide.png";
 
 export {
   logo,
