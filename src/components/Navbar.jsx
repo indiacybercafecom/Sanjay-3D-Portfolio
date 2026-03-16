@@ -42,10 +42,10 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
+          <img src='http://indiacybercafe.com/wp-content/uploads/2026/03/sanjay_siteicon.png' alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Sanjay &nbsp;
-            <span className='sm:block hidden'> | India Cyber Cafe</span>
+            Sanjay Vaishya &nbsp;
+            <span className='sm:block hidden'> | ICC</span>
           </p>
         </Link>
 
